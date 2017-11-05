@@ -1,0 +1,21 @@
+{
+  "name": "wspr",
+  "version": "1.0.0",
+  "description": "Simple Websocket Client with Command Line Arguments",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "websocket": "^1.0.25"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "app.js 'message'"
+  },
+  "keywords": [
+    "ws",
+    "websockets",
+    "nodejs"
+  ],
+  "author": "Matt Sandy",
+  "license": "ISC"
+}
